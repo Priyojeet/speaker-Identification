@@ -19,7 +19,7 @@ def getAudio():
     print("Stop recording")
     rec.stop()
     print("Saving")
-    rec.save("test2.wav")
+    rec.save("test.wav")
 #getAudio()
 
 def get_file(path):
