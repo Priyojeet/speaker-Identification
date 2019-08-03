@@ -2,6 +2,15 @@ from tkinter import *
 import os
 import sys
 
+
+
+dir_list = ["data/training_data/", "data/test_data/"]
+for i in dir_list:
+	if not os.path.exists(i):
+		os.makedirs(i)
+
+
+        
 def forReg():
     os.system('python recordForRegistration.py')
 
